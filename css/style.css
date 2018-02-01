@@ -20,7 +20,7 @@ h1,h2,h3,h4{
   text-align: center;
 }
 header{
-  height: 70px;
+  height: 75px;
   width: 100%;
 }
 header .container{
@@ -47,11 +47,11 @@ header .container{
   padding-bottom: 3px;
 }
 nav ul{  
-  margin: 10px 0;
+  margin: 0;
 }
 nav ul li{
   float: right;
-  padding: 5% 2%;
+  padding: 30px 15px;
   list-style: none;
 }
 nav ul li a{
@@ -69,7 +69,7 @@ nav ul li a:hover{
   border-bottom: 2px solid #9b9b9b;
 }
 section.banner{
-  height: calc(100vh - 70px);
+  height: calc(100vh - 75px);
   background: #ccc url('../images/new-york.jpg');
   background-size: cover;
   background-attachment: fixed;
