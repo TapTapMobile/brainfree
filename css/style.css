@@ -10,7 +10,12 @@ a{
 h1,h2,h3,h4{
   margin: 0;
 }
-
+.white{
+  color:white;
+}
+.text-center{
+  text-align: center;
+}
 header{
   height: 70px;
   width: 100%;
@@ -25,6 +30,7 @@ header .container{
   max-width: 90%;
   margin: 0 auto;
 }
+
 .logo{
  display: grid; 
  grid-template-columns:  1fr 1fr;
