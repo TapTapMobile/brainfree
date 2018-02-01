@@ -86,6 +86,13 @@ section.banner{
   box-sizing: content-box;
   width: auto;
 }
+.reservation{
+  text-align: center;
+  color: #ccc;
+}
+.reservation hr{
+  border:.5px solid #ccc;
+}
 .heading{
   border: 1px solid #ccc;
 }
