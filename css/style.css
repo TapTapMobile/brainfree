@@ -1,12 +1,16 @@
 html,body{
   min-height: 100%;
 }
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  cursor: pointer;
+}
 h1,h2,h3,h4{
   margin: 0;
 }
-.grey-bg{
-  background: #efefef;
-}
+
 header{
   height: auto;
   width: 100%;
@@ -21,57 +25,25 @@ header .container{
   max-width: 90%;
   margin: 0 auto;
 }
-.features{
-  width: 100%;
-  display: grid;
-}
-.features img{
-  width: 100%;
-}
-.col-3{
-  grid-template-columns: repeat(3,1fr);
-}
-.col-2{
-  grid-template-columns: repeat(2,1fr);
-}
-.col__button-container{
-  padding: 10% 0;
-  margin-top: -4px;
-  width: 100%;
-  background: #191919;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.btn-outline{
-  background: 0;
-  border: 1px solid;
-  
-}
-
-button{
-  padding: 4% 6%;
-  cursor: pointer;
-}
-.btn-white{
-  border: 1px solid white;
-  color: white;
-}
-.btn-outline.btn-white:hover{
-  background: white;
-  transition: .5s ease all;
-  color: #191919;
-}
-.btn-rounded{
-  border-radius: 30%;
-}
 nav ul{  
   margin: 10px 0;
 }
 nav ul li{
   float: right;
-  padding: 5%;
+  padding: 5% 2%;
   list-style: none;
+}
+nav ul li a{
+  color: #9b9b9b;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: .5px;
+  padding-bottom: 2px;
+  border: 1px solid transparent;
+}
+
+nav ul li a:hover{
+  border-bottom: 2px solid #9b9b9b;
 }
 section.banner{
   height: calc(100vh - 70px);
@@ -80,9 +52,6 @@ section.banner{
   background-attachment: fixed;
   background-position: center center;
 }
-.text-banner{
-  padding: 10% 0;
-}
 .banner-center{
   display: flex;
   justify-content: center;
@@ -90,7 +59,5 @@ section.banner{
   flex-direction: column;
 }
 @media screen and (max-width: 780px ){
-  .col-3{
-    grid-template-columns: 1fr;
-  }
+  
 }
