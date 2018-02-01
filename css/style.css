@@ -35,10 +35,11 @@ header .container{
 }
 
 .logo{
- display: grid; 
- grid-template-columns:  1fr 1fr;
- justify-content: flex-end;
+ display: flex;
  align-items: flex-end;
+}
+.logo img{
+  max-width: 170px;
 }
 .logo p{
   margin: 0;
