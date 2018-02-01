@@ -77,6 +77,13 @@ section.banner{
   align-items: center;
   flex-direction: column;
 }
+.banner__content{
+  border: 4px solid red;
+  padding: 5%;
+  box-sizing: content-box;
+  width: auto;
+ 
+}
 @media screen and (max-width: 780px ){
   
 }
